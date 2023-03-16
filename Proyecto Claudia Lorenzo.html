@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos.CSS">
+    <script src="https://kit.fontawesome.com/5e460acc3a.js" crossorigin="anonymous"></script>
+    <title>Proyecto CV</title>
+    <script src="js/function.js"></script>
+</head>
+<body>
+<section class = "encabezado">
+    <h1 id="título">Claudia Lorenzo</h1>
+      
+    <img src="claudia lorenzo.jpg" alt="">
+ 
+  <div class = "botonera"> 
+        <div class = "boton1">  
+          <p class= "id" id ="domicilio">Domicilio</p>
+          <button type="button" id="boton" onclick='document.getElementById("domicilio").innerHTML = "Almagro 2000"'><i class="fa-2x fa-sharp fa-solid fa-house"></i></button> 
+          <script src="js/function.js"></script>
+        </div>
+  
+       <div class = "boton2">
+          <p class="id" id ="Email">Email</p>
+          <button type="buton" id="boton" onclick='document.getElementById("Email").innerHTML = "clabe@gmail.com"'><i class="fa-2x fa-sharp fa-solid fa-envelope"></i></button>
+          <script src="js/function.js"></script>
+        </div>
+        
+       <div class = "boton3"> 
+          <p class="id" id ="Contacto">Contacto</p>
+          <button type="buton" id="boton" onclick='document.getElementById("Contacto").innerHTML = "11 0000 0000"'><i class="fa-2x fa-sharp fa-solid fa-phone"></i></button>
+          <script src="js/function.js"></script>
+        </div>
+    </div>      
+</section>
+
+<section class = "info">
+    <h2>Información general</h2>
+    <p>Soy estudiante de la Licenciatura en Turismo en la  <a href ="https://undav.edu.ar">Universidad Nacional de Avellaneda</a>. Con capacidad de aprender y aplicar mis concocimientos en el ámbito profesional. En busca de una oportunidad laboral en la que pueda desarrolar mis habilidades y adquirir nuevas experiencias.</p>
+</section>
+
+<section class = "info">
+    <h2> Acreditaciones</h2>
+    <ul>
+        <li>Profesora de Folklore</li>
+        <li>Masoterapeuta y Reflexóloga</li>
+        <li>Acompañante Terapéutico</li>
+    </ul>
+</section>
+
+<section class = "habilidades">
+    <h2> Experincia laboral</h2>
+        <p class="ex">Masoterapeuta</p>
+    
+    <ul>
+        <li>Masajes terapéuticos</li>
+        <li>Tratamiento eficaz en pacientes con dolor en el ciático, lumbar o cervical</li>
+        <li>Tratamiento de contracturas</li>
+    </ul>
+    <p class="ex">Profesora de Folklore</p>
+    <ul>
+        <li>Clases de danzas tradicionales y de proyección</li>
+        <li>Incentivar la memoria de los participantes</li>
+        <li>Estimular el movimiento corporal</li>
+    </ul>
+    <div>
+      <img class = "1" src="Bailando.jpg" alt="" srcset="">  
+    </div>
+</section>
+
+<section class = "habilidades">
+    <h2> Estudios</h2>
+    <ul>
+      <li>Licenciatura en Turismo</li>
+      <li>Profesorado de danzas nativas</li>
+      <li>Masoterapeuta</li>
+    </ul> 
+</section>
+
+<section class = "habilidades">
+   <h2>Hobby</h2>
+   <p>Como hobby realizo amigurumis, que es una técnica japonesa de tejido</p>
+   <img class = "2" src="Batman.jpg" alt="">
+</section>
+</body>
+</html>
